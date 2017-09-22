@@ -1,0 +1,100 @@
+body
+{
+    margin: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    font-family: "Arial";
+    font-size: 10pt;
+}
+
+
+td.vline
+{
+    background-color: #cccccc;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 1px
+}
+td.hline
+{
+    background-color: #cccccc;
+    height: 1px;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px
+}
+
+td.headerleft
+{
+    width: 450px;
+}
+
+tr.header
+{
+    background-image: url('banner-bg.gif');
+    background-repeat: repeat-x
+}
+
+div.footer
+{
+    font-family: "Arial";
+    font-size: 8pt
+}
+
+a:hover
+{
+    color: #ff0000;    
+    text-decoration: none
+}
+
+a
+{
+    color: #1f4ee3;
+    text-decoration: none
+}
+
+font
+{
+    font-family: "Arial";
+    font-size: 10pt
+}
+
+td.alignleft
+{
+}
+
+td.alignright
+{
+}
+
+tr.hrrow
+{
+    background-color: #000000;
+    height: 2px;
+}
+
+table.menu
+{
+    background-color: #555555;
+    color: #ffffff;
+    height: 12px;
+    font-family: "Arial";
+    font-size: 8pt
+}
+
+td.menubutton
+{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+td.menubutton a {color: #ffffff;}
+td.menubutton a:hover {color: #ffffff;}
+td.menubutton:hover {background-color: #777777}

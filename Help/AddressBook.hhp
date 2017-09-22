@@ -1,0 +1,17 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=AddressBook.chm
+Contents file=AddressBook.hhc
+Default topic=Introduction.html
+Display compile progress=No
+Index file=AddressBook.hhk
+Language=0xc09 English (Australia)
+Title=ABC Address Book
+
+
+[FILES]
+MainWindow.html
+Introduction.html
+
+[INFOTYPES]
+

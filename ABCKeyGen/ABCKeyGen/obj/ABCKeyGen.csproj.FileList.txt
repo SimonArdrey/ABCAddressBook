@@ -1,0 +1,8 @@
+bin\Debug\ABCKeyGen.exe
+bin\Debug\ABCKeyGen.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ABCKeyGen.MainForm.resources
+obj\Debug\ABCKeyGen.Properties.Resources.resources
+obj\Debug\ABCKeyGen.csproj.GenerateResource.Cache
+obj\Debug\ABCKeyGen.exe
+obj\Debug\ABCKeyGen.pdb

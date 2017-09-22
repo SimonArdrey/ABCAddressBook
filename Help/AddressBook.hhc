@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction / Contents">
+		<param name="Local" value="Introduction.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Main Window">
+		<param name="Local" value="MainWindow.html#MainWindow">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Contact Listing">
+		<param name="Local" value="MainWindow.html#ContactListing">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="In/Out Board">
+		<param name="Local" value="MainWindow.html#InOutBoard">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="View/Edit/New Contacts">
+		<param name="Local" value="MainWindow.html#Contacts">
+		</OBJECT>
+	<OBJECT type="text/sitemap">
+		<param name="Merge" value="main.css">
+
+		</OBJECT>
+</UL>
+</BODY></HTML>

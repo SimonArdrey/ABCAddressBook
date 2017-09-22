@@ -1,0 +1,5 @@
+bin\Debug\ABCImport.exe
+bin\Debug\ABCImport.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ABCImport.exe
+obj\Debug\ABCImport.pdb

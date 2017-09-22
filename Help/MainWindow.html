@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>	
+	<title>ABC Address Book</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />	
+	<link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr class="header">
+	<td><img src="banner2.gif" /></td>
+	<td><img src="banner-bg.gif" /></td>
+</tr>
+</table>
+<script type="text/javascript" src="wz_tooltip.js"></script>
+<script language="javascript" src="menu.js"></script>
+<script language="javascript">
+// Insert the menu items.
+newMenuItem("Main Window","#MainWindow");
+newMenuItem("Contact Listing","#ContactListing");
+newMenuItem("In/Out Board","#InOutBoard");
+newMenuItem("Contacts","#Contacts");
+BuildMenu();
+</script>
+
+<blockquote>
+
+	<a name="MainWindow"></a>
+	<h3>Main Window</h3>
+	The main window is the window you see when the program starts. There are two buttons at the top of the window. One is labeled 'Contacts' and the other 'In/Out Board'.
+	<br /><br />
+	These buttons switch between the two sections of the program and they are always at the top of the window.
+	At the top of the window there is a Database menu which allows you to edit the categories and export data. You can also print to entire address book from this menu.
+	Data can be exported into CSV and XML formats.
+	
+	<a name="ContactListing"></a>
+	<h3>Contact Listing</h3>
+	In the centre of the window there is a list. This list displays the first 100 contacts that match the search text and category. Double clicking on any of the items in the list will display a window with the complete details for the selected contact.
+	<br /><br />
+	Down the left side of the window there is a clickable alphabet selector. Clicking the letters will automatically display the first 100 contacts starting with the selected letter. The Search Text box will be set to the letter. 
+	<br /><br />
+	Across the top of the contacts list there is a menu bar with some buttons (View, Edit, New and Delete). The View button opens a new window and displays all the information for a contact. To the right of the buttons displays the telephone and mobile/cell number for the selected contact in the list.
+	<br /><br />
+	The Search Text entry box next to the buttons allows you to search for a particular name or part of a name. You can use special characters in this box called wild cards that allow you to search for patterns. The percentage % will match any number of characters and the underscore _ will match any single character. 
+	<br /><br />
+	<b>Example 1:</b> Searching ‘CA’ will find all names starting with CA such as CANFIELD or CAMPBELL.
+	<br /><br />
+	<b>Example 2:</b> Searching ‘_AT’ will bring up any name with A as the second letter and T as the third letter. Such as BATTREY or NATIONAL.
+	<br /><br />
+	<b>Example 3:</b> Searching ‘%AT’ will find all names that contain the letter sequence ‘AT’ such as BOBCAT or RADIATOR.
+	<br /><br />
+	You can use a combination of wild cards for example: ‘% ME__L %KS’ will match ‘ALL METAL WORKS’ and other names like it. This example is just to demonstrate how wild cards work. It is not really a practical search. This feature could be useful for picking out a name out of similar names or finding names if unsure of the spelling.
+	<br /><br />
+	Next to the Search Text box there is a category drop down box. If you select a category other than the ‘[ANY]’ category the contacts list will only display contacts of that category.
+	<br /><br />
+	<div align="center">Example Screen Shot<br /><img src="screen1.gif" /></div>
+
+	<a name="InOutBoard"></a>
+	<h3>In/Out Board</h3>
+	At the top of this window below the ‘Contacts’ and ‘In/Out Board’ buttons there is a set of buttons for manipulating the in/out board. To add a name to the list, click the ‘Add Name’ button and a popup box to enter the name will be displayed.
+	<br /><br />
+	To set the status of a name, select the name in the list and click either the ‘In’, ‘Out’ or the ‘Away’ button. When clicking the out or away button, an input box window will appear asking you to specify a reason to be displayed on the screen. You can also click the little arrow beside the out and away buttons to pick a reason from a list. There is a little arrow next to the in button which allows you to set an optional start time. This feature is only optional and is reset everyday automatically.
+	<br /><br />
+	The ‘Date/Time’ column in this list specifies when the status was last changed. If the date is not within the current day it will be highlighted red.
+	<br /><br />
+	<div align="center">Example Screen Shot<br /><img src="screen2.gif" /></div>
+
+	<a name="Contacts"></a>
+	<h3>Viewing, Editing and Adding Contacts</h3>
+	<b>Viewing and Printing</b><br />
+	Editing and adding contacts is fairly simple. You can open a contact for viewing either by double clicking the name in the list or by clicking the ‘View’ button on the menu. In this screen you can see all details and print a details report by clicking the ‘Print Contact’ button at the bottom of the window.
+	<br /><br />
+	<b>Editing</b><br />
+	To edit a contact just select the contact in the list and click the ‘Edit’ button.
+	<br /><br />
+	<b>Adding a New Contact</b><br />
+	Click the ‘New’ button on the menu of the contacts list window. You will be presented with a number of fields to fill in. In the postal address section there is a button labeled ‘As Above’. When you click this button all details in the location address section are copied to the postal address section. The notes section on the right of the screen has the option to use different fonts, sizes and colours. You can format your notes to what ever style you require. Remember to set the category.
+	<br /><br />
+</blockquote>
+
+
+<script language="javascript" src="footer.js"></script>
+<script language="javascript" src="hover.js"></script>
+</body>
+</html>

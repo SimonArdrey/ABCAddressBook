@@ -1,0 +1,7 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\ABCRemote123.exe
+bin\Debug\ABCRemote123.pdb
+obj\Debug\ABCRemote123.exe
+obj\Debug\ABCRemote123.pdb
+bin\Debug\ABCAddressBook.exe
+bin\Debug\ABCAddressBook.pdb

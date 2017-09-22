@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportData" targetNamespace="http://tempuri.org/ReportData.xsd" xmlns:mstns="http://tempuri.org/ReportData.xsd" xmlns="http://tempuri.org/ReportData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ReportData" msprop:Generator_DataSetName="ReportData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Contact" msprop:Generator_UserTableName="Contact" msprop:Generator_RowDeletedName="ContactRowDeleted" msprop:Generator_TableClassName="ContactDataTable" msprop:Generator_RowChangedName="ContactRowChanged" msprop:Generator_RowClassName="ContactRow" msprop:Generator_RowChangingName="ContactRowChanging" msprop:Generator_RowEvArgName="ContactRowChangeEvent" msprop:Generator_RowEvHandlerName="ContactRowChangeEventHandler" msprop:Generator_TablePropName="Contact" msprop:Generator_TableVarName="tableContact" msprop:Generator_RowDeletingName="ContactRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NAME" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TELEPHONE" msprop:Generator_UserColumnName="TELEPHONE" msprop:Generator_ColumnPropNameInRow="TELEPHONE" msprop:Generator_ColumnVarNameInTable="columnTELEPHONE" msprop:Generator_ColumnPropNameInTable="TELEPHONEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FACSIMILE" msprop:Generator_UserColumnName="FACSIMILE" msprop:Generator_ColumnPropNameInRow="FACSIMILE" msprop:Generator_ColumnVarNameInTable="columnFACSIMILE" msprop:Generator_ColumnPropNameInTable="FACSIMILEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MOBILE" msprop:Generator_UserColumnName="MOBILE" msprop:Generator_ColumnPropNameInRow="MOBILE" msprop:Generator_ColumnVarNameInTable="columnMOBILE" msprop:Generator_ColumnPropNameInTable="MOBILEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ADDRESS" msprop:Generator_UserColumnName="ADDRESS" msprop:Generator_ColumnPropNameInRow="ADDRESS" msprop:Generator_ColumnVarNameInTable="columnADDRESS" msprop:Generator_ColumnPropNameInTable="ADDRESSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SUBURB" msprop:Generator_UserColumnName="SUBURB" msprop:Generator_ColumnPropNameInRow="SUBURB" msprop:Generator_ColumnVarNameInTable="columnSUBURB" msprop:Generator_ColumnPropNameInTable="SUBURBColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="STATE" msprop:Generator_UserColumnName="STATE" msprop:Generator_ColumnPropNameInRow="STATE" msprop:Generator_ColumnVarNameInTable="columnSTATE" msprop:Generator_ColumnPropNameInTable="STATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="POST_CODE" msprop:Generator_UserColumnName="POST_CODE" msprop:Generator_ColumnPropNameInRow="POST_CODE" msprop:Generator_ColumnVarNameInTable="columnPOST_CODE" msprop:Generator_ColumnPropNameInTable="POST_CODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WEBSITE" msprop:Generator_UserColumnName="WEBSITE" msprop:Generator_ColumnPropNameInRow="WEBSITE" msprop:Generator_ColumnVarNameInTable="columnWEBSITE" msprop:Generator_ColumnPropNameInTable="WEBSITEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EMAIL" msprop:Generator_UserColumnName="EMAIL" msprop:Generator_ColumnPropNameInRow="EMAIL" msprop:Generator_ColumnVarNameInTable="columnEMAIL" msprop:Generator_ColumnPropNameInTable="EMAILColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="POSTAL_ADDRESS" msprop:Generator_UserColumnName="POSTAL_ADDRESS" msprop:Generator_ColumnPropNameInRow="POSTAL_ADDRESS" msprop:Generator_ColumnVarNameInTable="columnPOSTAL_ADDRESS" msprop:Generator_ColumnPropNameInTable="POSTAL_ADDRESSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="POSTAL_SUBURB" msprop:Generator_UserColumnName="POSTAL_SUBURB" msprop:Generator_ColumnPropNameInRow="POSTAL_SUBURB" msprop:Generator_ColumnVarNameInTable="columnPOSTAL_SUBURB" msprop:Generator_ColumnPropNameInTable="POSTAL_SUBURBColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="POSTAL_STATE" msprop:Generator_UserColumnName="POSTAL_STATE" msprop:Generator_ColumnPropNameInRow="POSTAL_STATE" msprop:Generator_ColumnVarNameInTable="columnPOSTAL_STATE" msprop:Generator_ColumnPropNameInTable="POSTAL_STATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="POSTAL_POST_CODE" msprop:Generator_UserColumnName="POSTAL_POST_CODE" msprop:Generator_ColumnPropNameInRow="POSTAL_POST_CODE" msprop:Generator_ColumnVarNameInTable="columnPOSTAL_POST_CODE" msprop:Generator_ColumnPropNameInTable="POSTAL_POST_CODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CATEGORY" msprop:Generator_UserColumnName="CATEGORY" msprop:Generator_ColumnPropNameInRow="CATEGORY" msprop:Generator_ColumnVarNameInTable="columnCATEGORY" msprop:Generator_ColumnPropNameInTable="CATEGORYColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NOTES" msprop:Generator_UserColumnName="NOTES" msprop:Generator_ColumnPropNameInRow="NOTES" msprop:Generator_ColumnVarNameInTable="columnNOTES" msprop:Generator_ColumnPropNameInTable="NOTESColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

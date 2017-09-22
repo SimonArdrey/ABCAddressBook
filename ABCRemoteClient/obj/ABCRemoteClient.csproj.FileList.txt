@@ -1,0 +1,7 @@
+bin\Debug\ABCRemoteClient.exe
+bin\Debug\ABCRemoteClient.pdb
+bin\Debug\ABCRemoteObject.dll
+bin\Debug\ABCRemoteObject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ABCRemoteClient.exe
+obj\Debug\ABCRemoteClient.pdb
